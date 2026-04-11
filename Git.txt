@@ -1,0 +1,3 @@
+ git add -u       =>Ye kya karega:
+                    ✅ Modified tracked files add karega
+                    ❌ Untracked files (.idea, .iml) ko touch nahi karega
