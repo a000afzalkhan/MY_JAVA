@@ -30,7 +30,8 @@ class Solution {
         if (num == 0) return 0;     SPECIAL CASE
 
         if (num % 9 == 0) {
-            return 9;               // 27 => 2+7=9  => [ 27/9=3 THATS WHY RETURN 9 ]
+            return 9;               // 27 => 2+7=9  => [ 27/9=3 remainder =0 THATS WHY RETURN 9 ]
+                                    // 18 => 1+8=9 => [ 18/9=2 remainder =0 THATS WHY RETURN 9 ]
         } else {
             return num % 9;
         }
