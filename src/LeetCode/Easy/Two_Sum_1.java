@@ -1,11 +1,10 @@
-package LeetCode;
+package LeetCode.Easy;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Two_Sum {
+public class Two_Sum_1 {
 
         public static int[]twoSum (int[]nums , int target){
             Map<Integer,Integer>map = new HashMap<>();

@@ -1,6 +1,6 @@
-package LeetCode;
+package LeetCode.Medium;
 
-public class Reverse_Integer {
+public class Reverse_Integer_7 {
     static void main(String[] args) {
 
       int re =  reverse(123);

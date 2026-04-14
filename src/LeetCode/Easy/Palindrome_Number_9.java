@@ -1,6 +1,6 @@
-package LeetCode;
+package LeetCode.Easy;
 
-public class Palindrome_Number {
+public class Palindrome_Number_9 {
     static void main(String[] args) {
         int c = 121;
         boolean result = palindromeNumber(c);

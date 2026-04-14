@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Easy;
 
 public class Find_the_Difference_389 {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Easy;
 
 public class Rotate_String_796 {
     static void main(String[] args) {
@@ -6,6 +6,7 @@ public class Rotate_String_796 {
     }
 
     public boolean rotateString(String s, String goal) {
+
         if(s.length()!=goal.length())return false;
         
         String temp = s;                        //Copy of original
@@ -37,3 +38,15 @@ public class Rotate_String_796 {
     }
 
 }
+
+
+/*
+
+public boolean rotateString(String s, String goal) {
+
+  if (s.length() != goal.length()) return false;
+
+        return (s + s).contains(goal);
+    }
+
+ */

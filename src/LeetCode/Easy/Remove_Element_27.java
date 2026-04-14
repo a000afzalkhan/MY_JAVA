@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Easy;
 
 public class Remove_Element_27 {
     static void main(String[] args) {

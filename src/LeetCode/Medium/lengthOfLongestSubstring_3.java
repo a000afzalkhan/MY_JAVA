@@ -1,8 +1,6 @@
-package LeetCode;
+package LeetCode.Medium;
 
-import java.util.HashSet;
-
-public class lengthOfLongestSubstring {
+public class lengthOfLongestSubstring_3 {
     static void main(String[] args) {
 
         String r = "Afzal";

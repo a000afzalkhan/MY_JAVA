@@ -1,6 +1,4 @@
-package LeetCode;
-
-import java.util.Arrays;
+package LeetCode.Easy;
 
 public class Maximum_69_number_1323 {
     static void main(String[] args) {

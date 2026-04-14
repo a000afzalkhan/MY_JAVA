@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Easy;
 
 public class Sqrt_69 {
     static void main(String[] args) {

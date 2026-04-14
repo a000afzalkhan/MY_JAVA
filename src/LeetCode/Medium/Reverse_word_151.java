@@ -1,10 +1,11 @@
-package LeetCode;
+package LeetCode.Medium;
 
 public class Reverse_word_151 {
     static void main(String[] args) {
 
     }
 }
+
 
 /*
 class Solution {

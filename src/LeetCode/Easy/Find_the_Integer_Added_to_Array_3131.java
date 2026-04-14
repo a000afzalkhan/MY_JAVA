@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Easy;
 
 public class Find_the_Integer_Added_to_Array_3131 {
     static void main(String[] args) {

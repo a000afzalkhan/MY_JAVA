@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Easy;
 
 public class Add_digit_258 {
     static void main(String[] args) {

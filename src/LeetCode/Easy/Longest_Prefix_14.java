@@ -1,9 +1,8 @@
-package LeetCode;
+package LeetCode.Easy;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Longest_Prefix {
+public class Longest_Prefix_14 {
 
     public String longestCommonPrefix(String[]str){
         Arrays.sort(str);

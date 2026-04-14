@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Easy;
 
 import java.util.TreeSet;                                   // One more time to understand
 

@@ -1,8 +1,6 @@
-package LeetCode;
+package LeetCode.Easy;
 
-import java.util.Arrays;
-
-public class Remove_Duplicates_from_Sorted_Array {
+public class Remove_Duplicates_from_Sorted_Array_26 {
     static void main(String[] args) {
 
         int []x = {1,1,2,2,3,3,4,4,5,6,6};
