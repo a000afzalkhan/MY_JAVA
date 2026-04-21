@@ -7,6 +7,7 @@ public class Min_max_Sum {
 
     }
 
+
     public static void miniMaxSum(List<Integer> arr) {
         long total = 0;
         long min = arr.get(0);
