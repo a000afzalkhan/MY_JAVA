@@ -5,3 +5,7 @@
   git commit --amend --no-edit  => same commit ko override karta hai
 
    git commit --force  ^ iske baad use karo
+
+   git add = checkpoint set karna
+   git commit = game save karna
+   -m = save ka naam dena (jaise “Level 1 complete”)
