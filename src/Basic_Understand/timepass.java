@@ -82,8 +82,8 @@ public class timepass {
         for(int i = len-1; i>=0;i-- ){
           rev += u.charAt(i);
         }
-        int result = Integer.parseInt(rev);
 
+        int result = Integer.parseInt(rev);
         return isNegative ? -result : result;
     }
 }
