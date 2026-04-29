@@ -6,14 +6,44 @@ import java.util.Arrays;
 public class timepass {
     static void main(String[] args) {
 
-        String []t = {"A","Z","E","Q","U","M"};
-        String []e = {"Afzal ","Zohra ","Ehsan ","Qumsum ","Uzair ","Maryam "};
+        timepass obj = new timepass();
 
-        String []s = {"flower", "flight","flow"};
-        int []p = {1,5,4,7,44,8,6,2};
+        int x = -121;
+
+        System.out.println(obj.reverse(x));
+        if(obj.reverse(x)==x){
+            System.out.println("Its palindrome");
+        }else{
+            System.out.println("Its not palindrome");
+        }
+
+       // int [] a = {54,45,78};
+
+//        int nums = 121;
+//        int d =2;
+//
+//        String i = nums + "";
+//        String j = d + "";
+//
+//        //System.out.println(i.charAt(0));
+//       // System.out.println(a[0]);
+//
+//
+//
+//        System.out.println(i.contains(j) && i.charAt(0)!=j.charAt(0));
+
+
+
+
+//
+//        String []t = {"A","Z","E","Q","U","M"};
+//        String []e = {"Afzal ","Zohra ","Ehsan ","Qumsum ","Uzair ","Maryam "};
+//
+//        String []s = {"flower", "flight","flow"};
+//        int []p = {1,5,4,7,44,8,6,2};
 
 //        Arrays.sort(t);
-        Arrays.sort(e,Collections.reverseOrder());
+    //    Arrays.sort(e,Collections.reverseOrder());
 //        Arrays.sort(s);
 //        Arrays.sort(p);
 
@@ -23,9 +53,9 @@ public class timepass {
 //        }
 
         //Name
-        for(String o :e){
-            System.out.print(o);
-        }
+//        for(String o :e){
+//            System.out.print(o);
+//        }
 
         //Number
 //        for(int i : p){
@@ -39,4 +69,22 @@ public class timepass {
 //            char ch = s.charAt();
 //        }
     }
+    public int reverse(int x) {
+        boolean isNegative = x<0;
+        int p = Math.abs(x);
+
+        String u = p + "";
+
+        String rev = "";
+
+        int len = u.length();
+
+        for(int i = len-1; i>=0;i-- ){
+          rev += u.charAt(i);
+        }
+        int result = Integer.parseInt(rev);
+
+        return isNegative ? -result : result;
+    }
 }
+
