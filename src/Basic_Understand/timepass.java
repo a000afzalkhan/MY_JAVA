@@ -6,16 +6,19 @@ import java.util.Arrays;
 public class timepass {
     static void main(String[] args) {
 
-        timepass obj = new timepass();
+        String s = "Afzal";
+        System.out.println(s.substring(0,3));
 
-        int x = -121;
-
-        System.out.println(obj.reverse(x));
-        if(obj.reverse(x)==x){
-            System.out.println("Its palindrome");
-        }else{
-            System.out.println("Its not palindrome");
-        }
+//        timepass obj = new timepass();
+//
+//        int x = 123;
+//
+//        System.out.println(obj.reverse(x));
+//        if(obj.reverse(x)==x){
+//            System.out.println("Its palindrome");
+//        }else{
+//            System.out.println("Its not palindrome");
+//        }
 
        // int [] a = {54,45,78};
 
@@ -69,22 +72,23 @@ public class timepass {
 //            char ch = s.charAt();
 //        }
     }
-    public int reverse(int x) {
-        boolean isNegative = x<0;
-        int p = Math.abs(x);
-
-        String u = p + "";
-
-        String rev = "";
-
-        int len = u.length();
-
-        for(int i = len-1; i>=0;i-- ){
-          rev += u.charAt(i);
-        }
-
-        int result = Integer.parseInt(rev);
-        return isNegative ? -result : result;
-    }
+//    public int reverse(int x) {
+//        boolean isNegative = x<0;
+//        int p = Math.abs(x);
+//
+//        String u = p + "";
+//
+//        String rev = "";
+//
+//        int len = u.length();
+//
+//        for(int i = len-1; i>=0;i-- ){
+//          rev += u.charAt(i);
+//        }
+//
+//        int result = Integer.valueOf(rev);
+//        return isNegative ? -result : result;
+//    }
 }
+
 
