@@ -6,17 +6,28 @@ import java.util.List;
 public class Listt {
     static void main(String[] args) {
 
-        List<Integer> lis = new ArrayList<>();
-        lis.add(5);
-        lis.add(6);
-        lis.add(7);
-        lis.add(8);
-        lis.add(9);
+        List<Long> lis = new ArrayList<>();
+        lis.add(54544L);
+        lis.add(6L);
+        lis.add(7L);
+        lis.add(8L);
+        lis.add(9L);
 
-        System.out.println(lis);
+        System.out.println(lis.size());
 
-        lis.removeFirst();
-        System.out.println("After Remove = " + lis);
+
+
+        //System.out.println(lis.remove(lis.indexOf(3)));
+//        lis.removeFirst();
+//        lis.remove(0);
+//        System.out.println(lis);
+
+       // int length = lis.size() - 1;
+
+        //System.out.println(lis.get(length));
+       // System.out.println(lis.get(lis.size()-1));
+
+        //System.out.println("After Remove = " + lis);
 
     }
 }
