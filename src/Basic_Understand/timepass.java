@@ -6,8 +6,40 @@ import java.util.Arrays;
 public class timepass {
     static void main(String[] args) {
 
-        String s = "Afzal";
-        System.out.println(s.substring(0,3));
+
+        int[] nums = {11, 12, 13, 14};
+
+        int t = 0;
+
+//        System.out.println(Arrays.toString(r));
+
+        for (int num : nums) {
+
+            //System.out.print(y);  // 1 1 1 2 1 3 1 4
+            int n = num;
+            while (n > 0) {
+                t++;
+                n /= 10;
+
+            }
+            System.out.print(t);
+
+            // System.out.println(nums.length);      4 length
+
+//
+            int[] e = new int[t];
+
+            int len = nums.length - 1;
+            for (int i = len; i >= 0; i--) {
+
+            }
+        }
+    }
+}
+
+
+//        String s = "Afzal";
+     //   System.out.println(s.substring(0,3));
 
 //        timepass obj = new timepass();
 //
@@ -71,7 +103,7 @@ public class timepass {
 //        while (right < s.length()){               // 0 < 5  [ A F Z A L ]
 //            char ch = s.charAt();
 //        }
-    }
+
 //    public int reverse(int x) {
 //        boolean isNegative = x<0;
 //        int p = Math.abs(x);
@@ -88,7 +120,3 @@ public class timepass {
 //
 //        int result = Integer.valueOf(rev);
 //        return isNegative ? -result : result;
-//    }
-}
-
-
