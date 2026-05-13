@@ -2,40 +2,68 @@ package Basic_Understand;
 
 import java.util.Collections;
 import java.util.Arrays;
+import java.util.Stack;
 
 public class timepass {
     static void main(String[] args) {
-
-
         int[] nums = {11, 12, 13, 14};
+        Stack<Integer> stack = new Stack<>();
 
-        int t = 0;
-
-//        System.out.println(Arrays.toString(r));
+        // Push digits of each number **separately** and pop immediately
+        // to maintain correct order
+        int[] a = new int[8];   // we know total 8 digits
+        int index = 0;
 
         for (int num : nums) {
-
-            //System.out.print(y);  // 1 1 1 2 1 3 1 4
             int n = num;
-            while (n > 0) {
-                t++;
-                n /= 10;
+            Stack<Integer> temp = new Stack<>();   // temp stack for each number
 
+            while (n > 0) {
+                temp.push(n % 10);
+                n /= 10;
             }
-            System.out.print(t);
+
+            // Pop from temp to get correct digit order
+            while (!temp.isEmpty()) {
+                a[index++] = temp.pop();
+            }
+        }
+
+        System.out.println(Arrays.toString(a));
+    }
+}
+
+//
+//        int[] nums = {11,12,13,14};
+//
+//
+//
+//        Stack<Integer>stack = new Stack<>();
+//
+//
+//
+//        for (int num : nums) {
+//            while(num>0){
+//                stack.add(num%10);
+//                num/=10;
+//            }
+//        }
+//        int[]a = new int[stack.size()];
+//        for (int i = 0; i <stack.size() ; i++) {
+//            a[i] = stack.pop();
+//        }
+//        System.out.println(stack.peek());
+//        System.out.println(Arrays.toString(a));
+//    }
+//}
+
+//System.out.print(t);
+
 
             // System.out.println(nums.length);      4 length
 
-//
-            int[] e = new int[t];
 
-            int len = nums.length - 1;
-            for (int i = len; i >= 0; i--) {
 
-            }
-        }
-    }
-}
 
 
 //        String s = "Afzal";
